@@ -4,8 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/USCO/Scenes/Home.unity
+    guid: 9338193e824fbaa45909daf57c064feb
+  - enabled: 1
+    path: Assets/USCO/Scenes/LoadScreen.unity
+    guid: 4f2e6570b7ed63744b5c5add01a5767a
+  - enabled: 1
+    path: Assets/USCO/Scenes/easy.unity
+    guid: 3e2b66854a175324eb79fa018ac188dd
+  - enabled: 1
+    path: Assets/USCO/Scenes/Medium.unity
+    guid: 941f751359bdfa449b564a0148836d82
+  - enabled: 1
+    path: Assets/USCO/Scenes/Hard.unity
+    guid: 629ff6dfbbbb4bf4eb17690f150216e1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5861c8843323b70469ab6e4102e38270, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 0850397d395b78f4fba2f9007f4cc292, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4afaf9223db5a1e4d97cb3a230314d02, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0638d91b68b93a743b64918871ceebca, type: 2}
